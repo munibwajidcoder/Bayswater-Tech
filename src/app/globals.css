@@ -248,6 +248,8 @@ html, body { overflow-x: hidden !important; width: 100%; max-width: 100vw; posit
 /* ===== RESPONSIVE OVERRIDES ===== */
 #main-header { transition: opacity 0.3s ease; }
 #main-header { transition: opacity 0.3s ease; }
+#main-header { transition: opacity 0.3s ease; }
+#main-header { transition: opacity 0.3s ease; }
 
 /* Mobile Nav Menu */
 #mobile-menu {

@@ -634,7 +634,7 @@ export default function Home() {
 <main className="relative z-10">
 {/*  Hero Section  */}
 <section className="min-h-screen flex items-center justify-center px-8 md:px-24 relative overflow-hidden">
-    <div className="w-full max-w-4xl mx-auto flex flex-col items-center text-center pt-28">
+    <div className="w-full max-w-4xl mx-auto flex flex-col items-center text-center -mt-32">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 mb-8 section-reveal shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] bg-background/40 backdrop-blur-md">
             <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{"background":"#D6B06A","boxShadow":"0 0 8px #D6B06A"}}></span>
             <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Manage IT and Cyber Security</span>
@@ -1072,7 +1072,7 @@ export default function Home() {
         </div>
         
         {/*  Services Column  */}
-        <div className="md:col-span-6 lg:col-span-3 flex flex-col gap-4">
+        <div className="md:col-span-4 lg:col-span-3 flex flex-col gap-4">
             <h5 className="text-xs font-bold uppercase tracking-[0.2em] text-text-main mb-2">SERVICES</h5>
             <a className="text-sm text-text-muted hover:text-white transition-colors" href="#">Managed IT Services</a>
             <a className="text-sm text-text-muted hover:text-white transition-colors" href="#">Cybersecurity &amp; Compliance</a>
@@ -1082,7 +1082,7 @@ export default function Home() {
         </div>
 
         {/*  Company Column  */}
-        <div className="md:col-span-6 lg:col-span-2 flex flex-col gap-4">
+        <div className="md:col-span-4 lg:col-span-2 flex flex-col gap-4">
             <h5 className="text-xs font-bold uppercase tracking-[0.2em] text-text-main mb-2">COMPANY</h5>
             <a className="text-sm text-text-muted hover:text-white transition-colors" href="#">About Us</a>
             <a className="text-sm text-text-muted hover:text-white transition-colors" href="#">Infrastructure</a>
@@ -1091,7 +1091,7 @@ export default function Home() {
         </div>
 
         {/*  Contact Column  */}
-        <div className="md:col-span-6 lg:col-span-2 flex flex-col gap-4">
+        <div className="md:col-span-4 lg:col-span-2 flex flex-col gap-4">
             <h5 className="text-xs font-bold uppercase tracking-[0.2em] text-text-main mb-2">CONTACT</h5>
             <div className="flex items-center gap-3 text-sm text-text-muted">
                 <span className="material-symbols-outlined text-primary text-base">call</span>
@@ -1108,7 +1108,7 @@ export default function Home() {
         </div>
 
         {/*  Legal Column  */}
-        <div className="md:col-span-6 lg:col-span-2 flex flex-col gap-4">
+        <div className="md:col-span-4 lg:col-span-2 flex flex-col gap-4">
             <h5 className="text-xs font-bold uppercase tracking-[0.2em] text-text-main mb-2">LEGAL &amp; SECURITY</h5>
             <a className="text-sm text-text-muted hover:text-white transition-colors" href="#">Privacy Policy</a>
             <a className="text-sm text-text-muted hover:text-white transition-colors" href="#">Terms of Service</a>
